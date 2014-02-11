@@ -7,6 +7,7 @@
 //
 
 #import "TSAppDelegate.h"
+#import "TS2MainViewController.h"
 
 @implementation TSAppDelegate
 
@@ -14,7 +15,12 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.backgroundColor = [UIColor blackColor];
+    
+    TS2MainViewController *viewController = [[TS2MainViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:viewController];
+    
+    self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     return YES;
 }

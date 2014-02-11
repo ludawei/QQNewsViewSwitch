@@ -19,6 +19,11 @@
 		7769BCBD18A9E06100321ABF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7769BCA518A9E06100321ABF /* UIKit.framework */; };
 		7769BCC518A9E06100321ABF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7769BCC318A9E06100321ABF /* InfoPlist.strings */; };
 		7769BCC718A9E06100321ABF /* QQNewsViewSwitchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7769BCC618A9E06100321ABF /* QQNewsViewSwitchTests.m */; };
+		7769BCD718A9E0E700321ABF /* TS2MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7769BCD118A9E0E700321ABF /* TS2MainViewController.m */; };
+		7769BCD818A9E0E700321ABF /* TS2MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7769BCD218A9E0E700321ABF /* TS2MainViewController.xib */; };
+		7769BCD918A9E0E700321ABF /* TSModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7769BCD318A9E0E700321ABF /* TSModelViewController.m */; };
+		7769BCDA18A9E0E700321ABF /* TSModelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7769BCD418A9E0E700321ABF /* TSModelViewController.xib */; };
+		7769BCDB18A9E0E700321ABF /* TSNavAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7769BCD618A9E0E700321ABF /* TSNavAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +53,14 @@
 		7769BCC218A9E06100321ABF /* QQNewsViewSwitchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QQNewsViewSwitchTests-Info.plist"; sourceTree = "<group>"; };
 		7769BCC418A9E06100321ABF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7769BCC618A9E06100321ABF /* QQNewsViewSwitchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQNewsViewSwitchTests.m; sourceTree = "<group>"; };
+		7769BCD018A9E0E700321ABF /* TS2MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TS2MainViewController.h; sourceTree = "<group>"; };
+		7769BCD118A9E0E700321ABF /* TS2MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TS2MainViewController.m; sourceTree = "<group>"; };
+		7769BCD218A9E0E700321ABF /* TS2MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TS2MainViewController.xib; sourceTree = "<group>"; };
+		7769BCD318A9E0E700321ABF /* TSModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSModelViewController.m; sourceTree = "<group>"; };
+		7769BCD418A9E0E700321ABF /* TSModelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSModelViewController.xib; sourceTree = "<group>"; };
+		7769BCD518A9E0E700321ABF /* TSNavAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSNavAnimation.h; sourceTree = "<group>"; };
+		7769BCD618A9E0E700321ABF /* TSNavAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSNavAnimation.m; sourceTree = "<group>"; };
+		7769BCDC18A9E11600321ABF /* TSModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSModelViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +122,14 @@
 			children = (
 				7769BCB018A9E06100321ABF /* TSAppDelegate.h */,
 				7769BCB118A9E06100321ABF /* TSAppDelegate.m */,
+				7769BCD018A9E0E700321ABF /* TS2MainViewController.h */,
+				7769BCD118A9E0E700321ABF /* TS2MainViewController.m */,
+				7769BCD218A9E0E700321ABF /* TS2MainViewController.xib */,
+				7769BCD318A9E0E700321ABF /* TSModelViewController.m */,
+				7769BCDC18A9E11600321ABF /* TSModelViewController.h */,
+				7769BCD418A9E0E700321ABF /* TSModelViewController.xib */,
+				7769BCD518A9E0E700321ABF /* TSNavAnimation.h */,
+				7769BCD618A9E0E700321ABF /* TSNavAnimation.m */,
 				7769BCB318A9E06100321ABF /* Images.xcassets */,
 				7769BCA818A9E06100321ABF /* Supporting Files */,
 			);
@@ -220,6 +241,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7769BCD818A9E0E700321ABF /* TS2MainViewController.xib in Resources */,
+				7769BCDA18A9E0E700321ABF /* TSModelViewController.xib in Resources */,
 				7769BCAC18A9E06100321ABF /* InfoPlist.strings in Resources */,
 				7769BCB418A9E06100321ABF /* Images.xcassets in Resources */,
 			);
@@ -241,7 +264,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7769BCAE18A9E06100321ABF /* main.m in Sources */,
+				7769BCD918A9E0E700321ABF /* TSModelViewController.m in Sources */,
 				7769BCB218A9E06100321ABF /* TSAppDelegate.m in Sources */,
+				7769BCDB18A9E0E700321ABF /* TSNavAnimation.m in Sources */,
+				7769BCD718A9E0E700321ABF /* TS2MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
